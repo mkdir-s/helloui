@@ -1,0 +1,108 @@
+@media (max-width: 1400px) {
+    .intro__img img {
+        width: 90%;
+    }
+}
+@media (max-width: 980px) {
+    .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__wrapper {
+        flex-direction: column;
+    }
+    .header__logo {
+        margin-bottom: 30px;
+    }
+    .header-menu {
+        margin-bottom: 30px;
+    }
+    .actions__inform {
+        text-align: center;
+    }
+    .actions__img {
+        text-align: center;
+    }
+    .actions__img img {
+        width: 60%;
+    }
+    .posts__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .posts__item-wrapper {
+        justify-content: space-between;
+    }
+    .start__title {
+        font-size: 42px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 650px) {
+    .header-menu__list {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-menu__list-link {
+        margin-left: 0;
+        padding-bottom: 30px;
+        display: inline-block;
+    }
+    .intro__inform-title {
+        font-size: 60px;
+        line-height: 72px;
+    }
+    .intro__inform-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .award__title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .award__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .posts__suptitle {
+        margin-bottom: 20px;
+    }
+    .posts__items {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 500px) {
+    .intro__inform-button_blue,
+    .intro__inform-button_white {
+        display: block;
+    }
+    .intro__inform-button_blue {
+        margin-bottom: 20px;
+    }
+    .section {
+        margin-bottom: 60px;
+    }
+    .actions__inform-title {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .actions__inform-descr {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .start__title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .start__box {
+        flex-direction: column;
+    }
+    .start__box-input {
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .start__box-button {
+        border-radius: 10px;
+    }
+}

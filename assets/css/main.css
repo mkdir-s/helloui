@@ -185,6 +185,9 @@ a {
 .intro__img {
   text-align: center;
 }
+.intro__img img {
+  width: 80%;
+}
 
 .award__title {
   font-size: 42px;
@@ -246,6 +249,7 @@ a {
 
 .posts {
   background: #F8F8FA;
+  padding: 20px 0;
 }
 
 .posts__suptitle {
@@ -260,7 +264,7 @@ a {
   margin-bottom: 70px;
   font-weight: 500;
   font-size: 72px;
-  line-height: 32px;
+  line-height: 90px;
   text-align: center;
   color: #050038;
 }
@@ -268,7 +272,6 @@ a {
 .posts__items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
@@ -278,6 +281,17 @@ a {
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.actions__item-2 {
+  display: flex;
+  flex-direction: column;
+}
+.actions__item_2 .actions__inform {
+  order: 0;
+}
+.actions__item_2 .actions__img {
+  order: 1;
 }
 
 .posts__item-top {
